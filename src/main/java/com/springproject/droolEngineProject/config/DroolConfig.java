@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class DroolConfig {
-    public static final String RULES_CUSTOMER_RULES_DRL = "rules/customer-discount.drl";
-    public static final String RULES_TEMPLATE_FILE = "rules/discount-template.drl";
+    public static final String RULES_CUSTOMER_RULES_DRL = "rules/customer-discount.drl.remove";
+    public static final String RULES_TEMPLATE_FILE = "rules/discount-template.drl.remove";
     private static final KieServices kieServices = KieServices.Factory.get();
 
     @Bean
